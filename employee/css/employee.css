@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side-nav{
+    height: 100vh;
+    background-color: slateblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.side-nav-open{
+    width: 16%;
+}
+.side-nav-close{
+    width: 0%;
+}
+.page{
+    background-color: black;
+    height: 100vh;
+}
+.page-open{
+    width: 84%;
+    margin-left: 16% !important;
+}
+.page-close {
+    width: 100%;
+    margin-left: 0%;
+}
+button{
+    box-shadow: none !important;
+}
